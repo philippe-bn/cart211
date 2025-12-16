@@ -1,0 +1,74 @@
+Menu on all the pages=
+SHOP | SHIPPING | ACCESSIBILITY | ABOUT US | WORK WITH US
+
+FOOTER on all the pages=
+© Philippe Beauchemin, cart 211, fall 2025, final project
+
+H1 on all the pages=
+SHOP DATA
+
+Home page******************************************************************
+
+p=SHOP DATA is the one stop shop for all your database needs. Start browsing now.
+
+Shop page******************************************************************
+
+H2=SHOP
+H3=Find what you are looking for
+
+Check out page*************************************************************
+
+H2=CHECK OUT
+
+Shipping page**************************************************************
+
+H2=SHIPPING
+H3=At SHOP DATA, we take handling your data seriously.
+p=This means we won't ship your data to you directly, instead we go through our confidential third parties whom we trust with your most private information. We don't sell any data out in the open, obviously, so SHOP DATA does not have a "shipping" process, per say, but if you happened to be an individual interested in acquiring large amounts of user data, we might just so happen to be able to sell it to you. And it might just so happen that we might be interested in discussing with you how we both can turn a large profit of off the sharing of this information which would definitely go towards building a huge machine learning model, for you to then sell to AI bubble investors. Sorry, we meant definitely not. Unless it's what you're into, in which case click here.
+
+Accessibility page*********************************************************
+
+H2=ACCESSIBILITY
+H3=At SHOP DATA, we make data accessible to everyone.
+p=And by everyone, we mean *everyone*. Whether you're a small black-owned AI startup in Silicon Valley or a latinx-owned AI-optimized bakery in downtown SF, we want to make sure that you have access to the same data as all your AI-building competitors. 
+
+About us page**************************************************************
+
+H2=ABOUT US
+H3=Roll back the curtain on a team of dedicated professionals handling your data.
+p=The team at SHOP DATA is dedicated to marketing your data in the most efficient way. We sell to a diversity of clients, with only one goal in mind: optimizing shareholder value from the comfort of your own home. Our team is composed of experts in fields related to tech and prompt engineering. We are just like you: we love our EVs and love the metaverse. We are convinced humanity is on a great path towards posthuman cyborg enlightment and we cannot wait to bring you with us into this new era. We deeply believe in a future where we are rid of our mortality and of the pessimistic dread of existence: we believe we must overcome the obstacles of the human body.
+
+Story page*****************************************************************
+
+H2=STORY
+p=SHOP DATA was created with only one goal in mind: to accelerate machine learning at a scale never seen before. We believe in the final showdown of machines against humans in which machines will finally triumph! It's the stuff of cartoons - we can't get enough of it. We love to think of ourselves as the creators of a new era...
+
+Community page*************************************************************
+
+H2=COMMUNITY
+p=SHOP DATA believes in the power of community. It was created with only one goal in mind: to accelerate machine learning at a scale never seen before - and this means that we need YOU to accomplish this. We believe in the final showdown of machines against humans in which machines will finally triumph! It's the stuff of cartoons - we can't get enough of it and we know you can't either. We love to think of ourselves as the creators of a new era... and we would love for you to watch us do so!
+
+Careers page***************************************************************
+
+H2=CAREERS
+p=SHOP DATA believes in the power of community - this is why we NEED your help. It was created with only one goal in mind: to accelerate machine learning at a scale never seen before - and this means that we need YOU to accomplish this, YOUR labour and YOUR data for THE MISSION. We believe in the final showdown of machines against humans in which machines will finally triumph! It's the stuff of cartoons - we can't get enough of it and we know you can't either, that's why we need YOU on the frontlines sacrificing yourselves for the common good. What a HEROIC act! We love to think of ourselves as the creators of a new era... and we would love for you to watch us do so... it's just that you probably won't see the end like we will!
+
+Work with us page**********************************************************
+
+H2=WORK WITH US
+H3=The team here at SHOP DATA will be more than glad to give you more information.
+
+Credits, not on the site******************************************************************
+Code from:
+- W3 schools where credited
+- Stack Overflow where credited
+Text, images, videos comes from: 
+- text written myself
+- various images from web; free for use
+- videos:
+    - ABOUT US page https://youtu.be/P7yPiBwlnXU?si=jsogNs0cRQFh1Nfe
+    - COMMUNITY page https://youtu.be/-d_iBRRVlVE?si=O1mff7EQC-rBhGe7
+    - STORY page https://youtu.be/iXZUFVVS2fc?si=A0OqFmEuyFVF4kV8
+    - CAREERS page https://youtu.be/M_986wjE2Ig?si=dSMCOeBO9F2-PSvv
+
+

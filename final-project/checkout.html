@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta description for SEO-->
+    <meta name="description" content="SHOP DATA">
+
+    <!-- Open Graph for Social Sharing-->
+    <meta property="og:title" content="SHOP DATA">
+    <meta property="og:description" content="SHOP DATA">
+
+    <!-- Author and Copyright-->
+    <meta name="author" content="Philippe Beauchemin">
+    <meta name="copyright" content="copyright Philippe Beauchemin, student project, 2025">
+
+
+    <title>SHOP DATA</title>
+
+    <!--External stylesheet-->
+    <link rel="stylesheet" href="default.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!--Link to Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--Navigation-->
+<nav>
+    <div class="logo">
+        <a href="index.html">
+            <h1>SHOP DATA</h1>
+        </a>
+    </div>
+    <div class="menu1">
+        <button class="close-menu">
+            &times;
+        </button>
+
+        <!-- <a href="index.html" class="menuI_active">HOME</a><br> -->
+        <a href="shop.html" class="menuI">SHOP</a><br>
+        <a href="shipping.html" class="menuI">SHIPPING</a><br>
+        <a href="accessibility.html" class="menuI">ACCESSIBILITY</a><br>
+        <a href="about.html" class="menuI">ABOUT US</a><br>
+        <a href="work.html" class="menuI">WORK WITH US</a>
+
+    </div>
+    <div class="hamburger-menu">
+        <button>
+            <span class="fa fa-bars"></span> <!--span is inline html element-->
+        </button>
+    </div>
+</nav>
+
+<body>
+    <div id="wrapper">
+        <section>
+            <header>
+                <h2>CHECK OUT<h2>
+            </header>
+            <!-- https://www.w3schools.com/howto/howto_css_fullscreen_video.asp -->
+            <video autoplay muted loop id="cartVideo">
+                <source src="assets/cart.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <article>
+
+            </article>
+        </section>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div id="sitemap">
+            <a href="index.html" class="group1">HOME</a>
+            <a href="shop.html" class="group1">SHOP</a>
+            <a href="checkout.html" class="group1">&emsp;CHECKOUT</a>
+            <a href="shipping.html" class="group2">SHIPPING</a>
+            <a href="accessibility.html" class="group2">ACCESSIBILITY</a>
+            <a href="about.html" class="group3">ABOUT US</a>
+            <a href="story.html" class="group3">&emsp;STORY</a>
+            <a href="community.html" class="group3">&emsp;COMMUNITY</a>
+            <a href="careers.html" class="group3">&emsp;CAREERS</a>
+            <a href="work.html" class="group4">WORK WITH US</a>
+        </div>
+        <div class="social">
+            <!--Social Media Icons-->
+            <div class="icons-wrapper">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+
+            </div>
+        </div>
+        <div class="credit">
+            <small>This website was created as part of a student project. All content and design are copyright
+                Philippe Beauchemin, student, 2025. © Philippe Beauchemin, cart 211, fall 2025, final
+                project</small>
+        </div>
+    </footer>
+
+    <!-- script for the hamburger menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Handle opening the menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Handle closing the menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

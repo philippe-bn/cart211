@@ -1,0 +1,692 @@
+/* Navigation menu */
+nav {
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    line-height: 30px;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+
+}
+
+.menu1 {
+    display: flex;
+    background: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu1 a {
+    display: block;
+}
+
+.hamburger-menu {
+    display: none;
+    /* Hidden by default, will be shown on mobile */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hamburger-menu button {
+    background: none;
+    border: none;
+    font-size: 2em;
+    /* Size of the hamburger menu icon */
+    color: gray;
+}
+
+.hamburger-menu button .fa-bars {
+    cursor: pointer;
+}
+
+.close-menu {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    align-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    transform: scale(1.02);
+}
+
+.menuI {
+    text-align: right;
+}
+
+.menuI_active {
+    text-align: right;
+    color: gray;
+}
+
+#wrapper {
+    margin-top: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* the styling for the Home page specifically */
+#homewrapper::before {
+    /*https://stackoverflow.com/questions/20039765/how-to-apply-a-css-filter-to-a-background-image*/
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url('assets/still\(1\).jpg');
+    width: 105%;
+    height: 105%;
+    filter: blur(20px);
+    background-size: cover;
+}
+
+#homewrapper {
+    margin-top: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#homewrapper header h2 {
+    margin-top: 150px;
+    margin-bottom: 300px;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 40px;
+    color: black;
+}
+
+mark.beige {
+    /* https://stackoverflow.com/questions/52549363/which-css-do-i-need-to-mark-a-piece-of-text-as-highlighted */
+    background-color: rgba(108, 108, 99, 0.21);
+    color: black;
+}
+
+header h1 {
+    font-family: "Victor Mono", monospace;
+    text-align: left;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+header h3 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: darkgray;
+}
+
+header a {
+    margin-top: 0px;
+    color: black;
+}
+
+header a:hover {
+    color: rgb(255, 0, 0);
+}
+
+/* image for shipping page? */
+#shipping {
+    position: relative;
+    margin-top: 50px;
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+
+}
+
+/* Style the videos*/
+/* https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
+#americaVideo {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+#cartVideo {
+    position: relative;
+    margin-left: 20%;
+    width: 60%;
+    z-index: -1;
+}
+
+#stocksVideo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 60%;
+    z-index: -1;
+}
+
+#diversityVideo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 60%;
+    z-index: -1;
+}
+
+#colleaguesVideo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 60%;
+    z-index: -1;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+/*Google fonts*/
+.victor-mono-font {
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: "Victor Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    padding: 0%;
+    margin: 0%;
+}
+
+/*For any links in the text, don't underline*/
+article p a {
+    text-decoration: none;
+}
+
+article p:last-child {
+    margin-bottom: 80px;
+}
+
+article h3 {
+    margin-bottom: 10px;
+    color: #B31942;
+}
+
+/* For the Footer */
+footer {
+    margin-top: 40px;
+    min-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-top: 2px solid #ffffff;
+}
+
+#sitemap {
+    padding-top: 20px;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+    grid-auto-flow: column;
+    /* https://stackoverflow.com/questions/61180545/css-grid-how-do-i-put-everything-on-a-single-row */
+}
+
+.group1 {
+    grid-row: auto;
+    grid-column: 1;
+}
+
+.group2 {
+    grid-column: 2;
+}
+
+.group3 {
+    grid-column: 3;
+}
+
+.group4 {
+    grid-column: 4;
+}
+
+.social {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.credit {
+    padding-bottom: 20px;
+}
+
+/* For the Shopping page */
+.sensitive {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 100%;
+}
+
+.sensitive img {
+    width: 100%;
+}
+
+.sensitive figure {
+    filter: blur(8px);
+    margin: 0;
+}
+
+/*For the books class on the Accessibility page, display the images in a grid*/
+.books {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    max-width: 100%;
+}
+
+.books img {
+    width: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hover-text {
+    opacity: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    transition: opacity 0.3s ease;
+}
+
+.books figure {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+}
+
+.books figure:hover .hover-text {
+    display: block;
+    opacity: 1;
+}
+
+.books figure:hover img {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* leftover */
+.stories-left {
+    grid-column: 1 / 7;
+}
+
+.stories-p2 {
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+    margin-left: 50px;
+}
+
+.stories-right {
+    grid-column: 7 / 13;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.im {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    box-sizing: border-box;
+    display: block;
+}
+
+.im:hover {
+    filter: blur(2px);
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.im1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.im2 {
+    grid-column: 4 / 7;
+    /*Start and end*/
+    grid-row: 1 / 3;
+}
+
+.im3 {
+    grid-column: 7 / 13;
+    grid-row: 1 / 6;
+}
+
+.im4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 3 / 6;
+}
+
+.im5 {
+    grid-column: 4 / 7;
+    grid-row: 3 / 5;
+}
+
+.abouts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.abouts a {
+    color: #B31942;
+    font-weight: bold;
+}
+
+/* For the Work with us page */
+
+/* From https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*This is for cellphones*/
+
+@media (max-width: 1024px) {
+
+    .hamburger-menu {
+        display: flex;
+        align-items: center;
+        margin-right: 3%;
+    }
+
+    .menu1 {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        /* Ensure the menu is above other elements */
+    }
+
+    .menu1 a {
+        padding: 20px;
+    }
+
+    .menu1 a,
+    .menu1 a:hover {
+        text-decoration: none;
+        color: gray;
+        background-color: transparent;
+    }
+
+    .close-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 2em;
+        color: gray;
+    }
+
+    .menu-deployed {
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 1000;
+        padding-top: 50px;
+    }
+
+    button {
+        border-width: 0px;
+        background-color: white;
+    }
+
+    nav {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 0;
+        line-height: 40px;
+        position: relative;
+        display: flex;
+        /*like grid but more robust, makes it easier to align*/
+        justify-content: space-between;
+        align-items: center;
+        /*vertically align*/
+        flex-wrap: wrap;
+        border-bottom: 4px solid white;
+        background: black;
+        z-index: 1000;
+    }
+
+    nav h1 {
+        color: white;
+        margin-left: 10%;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+
+    #wrapper {
+        margin-top: 500px;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    /* the styling for the Home page specifically */
+    #homewrapper {
+        margin-top: 500px;
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #homewrapper header h2 {
+        margin-top: 50%;
+        margin-bottom: 200px;
+        margin-left: 5%;
+        text-align: left;
+        font-size: 30px;
+        color: black;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h3 {
+        margin-bottom: 20%;
+    }
+
+    /*Google fonts*/
+    .victor-mono-font {
+        font-family: "Victor Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    body {
+        font-family: "Victor Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+
+        padding: 0%;
+        margin: 0%;
+    }
+
+    /* image for shipping page? */
+    body img {
+        margin-top: -50px;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer {
+        margin-top: 40px;
+        font-size: 12px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .sensitive {
+        display: grid;
+        grid-template-columns: auto auto;
+        max-width: 100%;
+    }
+
+    .books {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+        grid-auto-flow: row dense;
+    }
+
+    .books [class^="im"] {
+        grid-column: auto !important;
+        grid-row: auto !important;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .books img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .stories-left {
+        grid-column: 1 / 13;
+        grid-row: 1 / 10;
+    }
+
+    .stories-left img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .stories-right {
+        grid-column: 1 / 13;
+        grid-row: 10 / 20;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .stories-p2 {
+        grid-column: 1 / 13;
+        grid-row: 19 / 50;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
